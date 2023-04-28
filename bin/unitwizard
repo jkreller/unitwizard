@@ -1,0 +1,13 @@
+<?php
+
+use Jkreller\UnitWizard\Command\GeneratePhpUnitTestsCommand;
+use Jkreller\UnitWizard\FileHandler;
+use Jkreller\UnitWizard\OpenAiClient;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$command = new GeneratePhpUnitTestsCommand(
+    new FileHandler(),
+    new OpenAiClient(),
+);
+$command->execute($argv);

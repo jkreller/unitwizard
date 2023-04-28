@@ -1,0 +1,12 @@
+{
+    "name": "jkreller/unit-wizard",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jkreller\\UnitWizard\\": "src/"
+        }
+    }
+}
