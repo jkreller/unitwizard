@@ -1,4 +1,4 @@
-# unitwizard
+# unitwizard 🧙
 
 CLI tool for generating PHP unit tests with the help of generative AI.
 
