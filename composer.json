@@ -1,6 +1,21 @@
 {
-    "name": "jkreller/unit-wizard",
+    "name": "jkreller/unitwizard",
     "type": "project",
+    "keywords": [
+        "phpunit",
+        "testing",
+        "chatgpt",
+        "ai",
+        "openai"
+    ],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Julian Kreller",
+            "role": "lead"
+        }
+    ],
+    "prefer-stable": true,
     "require": {
         "guzzlehttp/guzzle": "^7.5"
     },

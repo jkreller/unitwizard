@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 use Jkreller\UnitWizard\Command\GeneratePhpUnitTestsCommand;

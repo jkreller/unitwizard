@@ -1,5 +1,5 @@
 # unitwizard 🧙
 
-CLI tool for generating PHP unit tests with the help of generative AI.
+CLI tool for generating PHP unit tests with the help of generative AI (by OpenAI).
 
-`php bin/unitwizard /path/to/src Namespace/For/Tests`
+`bin/unitwizard /path/to/src Namespace/For/Tests`
